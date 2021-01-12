@@ -63,7 +63,8 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
-    DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc
+    DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 #BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 KERNEL_LD := LD=ld.lld
