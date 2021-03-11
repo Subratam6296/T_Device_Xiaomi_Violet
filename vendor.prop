@@ -147,6 +147,7 @@ ro.vendor.qti.va_aosp.support=1
 # Graphics
 debug.sf.auto_latch_unsignaled=true
 persist.sys.sf.color_saturation=1.0
+ro.config.avoid_gfx_accel=true
 ro.surface_flinger.protected_contents=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
