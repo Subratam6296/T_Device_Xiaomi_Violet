@@ -227,3 +227,6 @@ persist.vendor.ims.disableQXDMLogs=1
 
 # Zygote
 zygote.critical_window.minute=10
+
+# USB
+vendor.usb.product_string=Redmi Note 7 Pro
