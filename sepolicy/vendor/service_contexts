@@ -1,0 +1,4 @@
+# Xiaomi Camera labels
+DisplayFeatureControl       u:object_r:DisplayFeatureControl:s0
+perfshielder                u:object_r:perfshielder:s0
+ProcessManager              u:object_r:ProcessManager:s0
