@@ -32,7 +32,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 PRODUCT_NAME := blaze_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 7 Pro
+PRODUCT_MODEL := M1901F7S
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
