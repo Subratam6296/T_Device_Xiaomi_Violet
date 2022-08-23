@@ -192,6 +192,10 @@ TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD := true
 # Security
 VENDOR_SECURITY_PATCH := 2021-07-05
 
+# Vendor init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_violet
+TARGET_RECOVERY_DEVICE_MODULES := libinit_violet
+
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
 include device/qcom/sepolicy_vndr/SEPolicy.mk
