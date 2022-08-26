@@ -329,6 +329,10 @@ PRODUCT_PACKAGES += \
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
+    
+# Packages
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
 
 # Perf
 PRODUCT_PACKAGES += \
