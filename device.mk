@@ -187,10 +187,10 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.violet
 
 # FM
-#PRODUCT_PACKAGES += \
-#    FM2 \
-#    libqcomfm_jni \
-#    qcom.fmradio
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni \
+    fm-commonsys 
 
 # Firmware
 #$(call inherit-product, vendor/xiaomi-firmware/violet/firmware.mk)
