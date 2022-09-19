@@ -1216,3 +1216,6 @@ vendor/lib64/libtime_genoff.so|7b8bf7bf1eaa4df8f6613f4ece711a0797cd2e46
 # WiFi - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/cnss-daemon|a66bf400596682c3cb4d5cbdcdd3640333844eb1
 vendor/bin/nv_mac|292eab960355eae44a338b2011b0032bc7df422e
+
+# WiFi Display (wfdconfig) - from Redmi/curtana_global/curtana:12/RKQ1.211019.001/V13.0.2.0.SJWMIXM:user/release-keys
+vendor/etc/wfdconfig.xml|de5e4d403a6cebca99fbd56fb8814319114fc523
