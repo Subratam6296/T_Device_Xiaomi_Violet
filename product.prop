@@ -7,6 +7,7 @@ ro.config.media_vol_default=10
 # Bluetooth
 persist.bluetooth.bqr.event_mask=14
 persist.bluetooth.bqr.min_interval_ms=500
+bluetooth.hardware.power.operating_voltage_mv=3300
 
 # Set the Bluetooth Class of Device
 # Service Field: 0x5A -> 90
