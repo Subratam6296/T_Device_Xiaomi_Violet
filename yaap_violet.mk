@@ -16,7 +16,7 @@ $(call inherit-product, vendor/yaap/config/common.mk)
 #$(call inherit-product, vendor/ANXCamera/config.mk)
 
 #Gapps
-#WITH_GAPPS := true
+TARGET_BUILD_GAPPS := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
