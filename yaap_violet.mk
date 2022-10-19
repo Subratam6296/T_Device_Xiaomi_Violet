@@ -1,7 +1,7 @@
 #
 # Copyright (C) 2019-2020 The LineageOS Project
 # Copyright (C) 2018-2020 The SuperiorOS Project
-# Copyright (C) 2021-2022 Project Blaze
+# Copyright (C) 2021-2022 Project Yaap
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -10,14 +10,10 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common.mk)
 
 # Inherit ANX Camera
 #$(call inherit-product, vendor/ANXCamera/config.mk)
-
-#Blaze
-BLAZE_BUILD_TYPE := OFFICIAL
-BLAZE_MAINTAINER := 尺りﾒ55 
 
 #Gapps
 #WITH_GAPPS := true
@@ -29,7 +25,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := blaze_violet
+PRODUCT_NAME := yaap_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro

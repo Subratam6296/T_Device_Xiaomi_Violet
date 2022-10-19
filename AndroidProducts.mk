@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_violet.mk
+    $(LOCAL_DIR)/yaap_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_violet-userdebug \
-    blaze_violet-user \
-    blaze_violet-eng
+    yaap_violet-userdebug \
+    yaap_violet-user \
+    yaap_violet-eng
