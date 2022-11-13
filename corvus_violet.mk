@@ -8,9 +8,14 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common SuperiorOS stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit ANX Camera
 #$(call inherit-product, vendor/ANXCamera/config.mk)
+
+#Gapps
+USE_GAPPS := true
 
 #Corvus Official
 RAVEN_LAIR=Official
