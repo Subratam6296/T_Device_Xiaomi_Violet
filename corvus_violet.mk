@@ -7,13 +7,14 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Inherit ANX Camera
 #$(call inherit-product, vendor/ANXCamera/config.mk)
 
-#Gapps
-#WITH_GAPPS := true
+#Corvus Official
+RAVEN_LAIR=Official
+CORVUS_MAINTAINER=Fosslover_Rdx55
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -22,7 +23,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_violet
+PRODUCT_NAME := corvus_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
