@@ -237,6 +237,13 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# HIDL - Legacy
+PRODUCT_PACKAGES += \
+    android.hidl.memory.block@1.0 \
+    android.hidl.memory.block@1.0.vendor \
+    android.hidl.memory@1.0-impl \
+    android.hidl.memory@1.0-impl.vendor
+
 # IFAA manager
 PRODUCT_PACKAGES += \
     IFAAService \
