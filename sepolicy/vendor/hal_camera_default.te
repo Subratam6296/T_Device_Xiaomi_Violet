@@ -1,6 +1,9 @@
 # For interfacing with PowerHAL
 hal_client_domain(hal_camera_default, hal_power)
 
+# For interfacing with ConfigStore
+hal_client_domain(hal_camera_default, hal_configstore)
+
 # Allow hal_camera_default to read to vendor_sysfs_kgsl
 r_dir_file(hal_camera_default, vendor_sysfs_kgsl)
 
@@ -11,3 +14,5 @@ r_dir_file(hal_camera_default, mnt_vendor_file)
 set_prop(hal_camera_default, vendor_camera_prop)
 
 allow hal_camera_default socket_device:sock_file write;
+
+binder_call(hal_camera_default, system_server)
