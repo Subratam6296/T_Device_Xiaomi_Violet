@@ -1,5 +1,5 @@
 git clone https://github.com/rdx420/T_Vendor_Xiaomi_Violet.git -b thirteen vendor/xiaomi/violet
-git clone https://github.com/ArrowOS-Devices/android_kernel_xiaomi_violet.git -b arrow-13.0 kernel/xiaomi/violet --depth=1
+git clone https://github.com/SuperiorOS-Devices/kernel_xiaomi_violet.git -b thirteen kernel/xiaomi/violet --depth=1
 git clone https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
 rm -rf packages/resources/devicesettings
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-19.1 packages/resources/devicesettings
