@@ -168,6 +168,7 @@ vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+ro.surface_flinger.vsync_event_phase_offset_ns=2000000
 
 # Keystore
 ro.hardware.keystore_desede=true
