@@ -93,7 +93,6 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libtinycompress \
-    libtinycompress.vendor \
     libvolumelistener
 
 PRODUCT_COPY_FILES += \
@@ -123,12 +122,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth.audio@2.1-impl \
     audio.bluetooth.default \
-    libbthost_if \
     android.hardware.bluetooth@1.1.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor \
-    libldacBT_bco
+    vendor.qti.hardware.btconfigstore@2.0.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml \
@@ -190,12 +187,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.violet
-
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni \
-    fm-commonsys 
 
 # Firmware
 #$(call inherit-product, vendor/xiaomi-firmware/violet/firmware.mk)
@@ -327,10 +318,6 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml
-    
-# Mlipay
-PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.mtdservice@1.0.vendor
 
 # Native Public Libraries
 PRODUCT_COPY_FILES += \
@@ -365,7 +352,6 @@ PRODUCT_PACKAGES += \
     fstab.persist \
     fstab.qcom \
     init.insmod.sh \
-    init.msm.usb.configfs.rc \
     init.power.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
@@ -424,7 +410,6 @@ PRODUCT_PACKAGES += \
     extphonelib_product.xml \
     qti-telephony-hidl-wrapper \
     qti-telephony-hidl-wrapper-prd \
-    qti-telephony-hidl-wrapper-prd.xml \
     qti-telephony-utils \
     qti_telephony_hidl_wrapper.xml \
     qti_telephony_utils.xml \
@@ -473,9 +458,7 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_32 \
     libdisplayconfig.qti \
     vendor.display.config@2.0 \
-    libdisplayconfig.qti.vendor \
     libnl \
     libqdMetaData \
-    libqdMetaData.system \
-    libqdMetaData.vendor
+    libqdMetaData.system
 
