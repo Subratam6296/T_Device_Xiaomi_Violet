@@ -39,5 +39,8 @@
 
     <!-- Fingerprint sensor location -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">550px</dimen>
+    
+    <!--  Blur radius on status bar window and power menu  -->
+    <dimen name="max_window_blur_radius">50px</dimen>
 
 </resources>
