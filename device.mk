@@ -383,6 +383,10 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+    
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
 
 # RIL
 PRODUCT_PACKAGES += \
