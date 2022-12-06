@@ -18,6 +18,9 @@ $(call inherit-product, vendor/catalyst/config/common.mk)
 #Gapps
 #WITH_GAPPS := true
 
+#Blur
+TARGET_SUPPORTS_BLUR := true
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
