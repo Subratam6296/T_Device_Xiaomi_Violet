@@ -1,6 +1,10 @@
 # App
 ro.launcher.blur.appLaunch=0
 
+# ADB props
+ro.secure=1 
+ro.debuggable=0
+
 # Audio
 ro.config.media_vol_default=10
 
