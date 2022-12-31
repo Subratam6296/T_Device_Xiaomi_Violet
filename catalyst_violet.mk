@@ -12,8 +12,8 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common SuperiorOS stuff.
 $(call inherit-product, vendor/catalyst/config/common.mk)
 
-# Inherit ANX Camera
-#$(call inherit-product, vendor/ANXCamera/config.mk)
+# MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 #Gapps
 #WITH_GAPPS := true
